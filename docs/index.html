@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="pt-br" dir="ltr">
+	<head>
+		<title>Curriculo Bernardo</title>
+        <meta charset="utf-8">
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+	
+	<body id="demo">
+		<h1>Curriculo Bernardo</h1>
+		
+        <div class="secao">
+			<h2>Dados Pessoais</h2>
+				<div class="vcard">
+				 <img src="./img/foto_bernardo.jpeg" alt="Paisagem" height="100" title="Ponte">
+                 <p><label>Nome</label>Bernardo Fagnani Carneiro</p>
+                 <p><label>Ideda</label>19 Anos</p>
+                 <p><label>Cidade</label>Curitiba - Paraná</p>
+                 <p><label>e-mail</label>bernardofcarneiro@gmail.com</p>
+                 <p><label>Telefone</label>(41) 99167-2110</p>
+				</div>
+		</div>
+
+		<div class="secao">
+			<h2>Dados Profissionais</h2>
+			
+			<p><label>Estudando</label>UP</p>
+			<p><label>Cursando</label>Ciência da Computação (Bacharelado)</p>
+			<p><label>Ano de ingresso</label>2020</p>
+		</div>
+
+		<div class="secao">
+			<h2>Meu aprendizado</h2>
+			
+			<p><label>Excel</label>Avançado </p>
+			<p><label>java</label>Avançado - Orientada a Objeto</p>
+			<p><label>C e C++</label>Avançado </p>
+            <p><label>Espanhol </label>Básico  </p>
+            <p><label>Inglês</label>Médio </p>
+		</div>
+
+        <div class="secao">
+			<h2>Habilidades técnicas</h2>
+			
+			<p><label>Office</label>85%</p>
+			<p><label>java</label>65%</p>
+			<p><label>C e C++</label>55%</p>
+            <p><label>JavaScript</label>25%</p>
+            <p><label>HTML & CSS</label>62%</p>
+            <p><label>Photoshop</label>40%</p>
+
+		</div>
+
+		<div class="secao">
+				<h2>Contato</h2>
+
+				<form class="contato" action="index.html" method="post">
+					<p></p>
+					<label for="name">Mensagem</label>
+					<p></p>
+					<textarea name="sugestao" rows="8" cols="80" placeholder="Digite sua mensagem aqui" class="campo"></textarea>
+					<p></p>
+					<label for="name">Onde é a sede da empresa </label>
+					<select class="campo" name="">
+						<option value=""></option>
+						<option value="AC">Acre</option>
+						<option value="AL">Alagoas</option>
+						<option value="AP">Amapá</option>
+						<option value="AM">Amazonas</option>
+						<option value="BA">Bahia</option>
+						<option value="CE">Ceará</option>
+						<option value="DF">Distrito Federal</option>
+						<option value="ES">Espírito Santo</option>
+						<option value="GO">Goiás</option>
+						<option value="MA">Maranhão</option>
+						<option value="MT">Mato Grosso</option>
+						<option value="MS">Mato Grosso do Sul</option>
+						<option value="MG">Minas Gerais</option>
+						<option value="PA">Pará</option>
+						<option value="PB">Paraíba</option>
+						<option value="PR">Paraná</option>
+						<option value="PE">Pernambuco</option>
+						<option value="PI">Piauí</option>
+						<option value="RJ">Rio de Janeiro</option>
+						<option value="RN">Rio Grande do Norte</option>
+						<option value="RS">Rio Grande do Sul</option>
+						<option value="RO">Rondônia</option>
+						<option value="RR">Roraima</option>
+						<option value="SC">Santa Catarina</option>
+						<option value="SP">São Paulo</option>
+						<option value="SE">Sergipe</option>
+						<option value="TO">Tocantins</option>
+					</select>
+					<p></p>
+					<label for="name">Vaga seria Remoto ou Presencial</label>
+					Remoto
+					<input type="radio" name="vaga" value="R" checked="checked">
+					Presencial
+					<input type="radio" name="vaga" value="P">
+					<p></p>
+					<label for="name">Qual linguagem a empresa usa</label>
+					<input type="checkbox" name="" value="1">
+					Java
+					<input type="checkbox" name="" value="2">
+					C
+					<input type="checkbox" name="" value="3">
+					Python
+					<p></p>
+					<button type="button" onclick="alert('Mensagem enviada com sucesso')"class="button">Enviar</button>
+					<p></p>
+				</form>
+			</div>
+			<div class="secao">
+				<h1>Preencha o formulario</h1>
+
+			<section class="formulario">
+
+				<form class="" action="sucesso.html" method="post">
+
+					<input id="forms" type="text" placeholder="Nome Completo" name="nome" required>
+					<input id="forms" type="email" placeholder="E-mail" name="email" required>
+					<input id="forms" type="number" placeholder="Telefone" nome="telefone" required>
+					<input id="forms" type="date" name="nascimento" required>
+					<input id="forms" type="text" placeholder="CEP" name="cep">
+					<input id="forms" type="text" placeholder="Logradouro" name="logradouro" required>
+					<input id="forms" type="text" placeholder="Número" name="numero">
+					<input id="forms" type="text" placeholder="Cidade" name="cidade" required>
+		  
+					<button class="botao" type="submit" name="cadastrar">CADASTRAR</button>
+		  
+				  </form>
+
+			</section>
+
+			</div>
+			<div class="secao">
+				<h1>Escolha a cor do texto!!</h1>
+						<button type="button" onclick="red()" class="buttonc" style="background-color: #0e5070;"></button>
+						<p></p>
+						<button type="button" onclick="Chartreuse()" class="buttonc" style="background-color: Chartreuse;"></button>
+						<p></p>
+						<button type="button" onclick="Coral()" class="buttonc" style="background-color: Coral;"></button>
+						<p></p>
+						<button type="button" onclick="Indigo()" class="buttonc" style="background-color: Indigo;"></button>
+						<p></p>
+						<button type="button" onclick="DarkSlateGrey()" class="buttonc" style="background-color: DarkSlateGrey;"></button>
+			</div>
+			
+
+        <footer>
+            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5541991672110"><img src="./img/whats.png" /></a>
+            <a href="https://instagram.com/bernardofcarneiro?igshid=1smh4y3oqvcsr"><img src="./img/insta.png" /></a>
+            <a href="https://t.me/bernardo02110"><img src="./img/telegram.png" /></a>
+            <a href="http://linkedin.com/in/bernardo-fagnani-carneiro-260a621a3"><img src="./img/link.png" /></a>
+            <a href="https://www.facebook.com/bernardo.carneiro.564"><img src="./img/face.png" /></a>
+            <a href="https://steamcommunity.com/id/bernardofc"><img src="./img/steam.png" /></a>
+        </footer>
+	</body>
+	<script>
+        function red() {
+          document.getElementById("demo").style.color = "#0e5070";        
+        }
+		function Chartreuse() {
+          document.getElementById("demo").style.color = "Chartreuse";        
+        }
+		function Coral() {
+          document.getElementById("demo").style.color = "Coral";        
+        }
+		function Indigo() {
+          document.getElementById("demo").style.color = "Indigo";        
+        }
+		function DarkSlateGrey() {
+          document.getElementById("demo").style.color = "DarkSlateGrey";        
+        }
+		
+    </script>
+</html>

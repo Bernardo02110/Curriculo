@@ -1,0 +1,115 @@
+body {
+	font: 14px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	color: #0E5070;
+    
+}
+
+h1,h2 {
+	font-family: Georgia;
+}
+
+h1 {
+	border-bottom: 6px solid #aaa;
+	background-color: #091F40;
+	color: #ddd;
+	padding: 5px;
+    text-align: center;	
+}
+
+h2 {
+    font: 20px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background-color: #DDD;
+	padding-left: 5px;
+	margin: 0 0 0 -15px;
+	font-weight: normal;
+    
+}
+
+.secao {
+	background-color: #eee;
+	padding-left: 15px;
+}
+
+label {
+	font-weight: bold;
+	margin-right: 10px;
+    color: #091F40;
+}
+
+label:after {
+	content: ":";
+}
+
+.vcard {
+	padding: 5px;
+}
+.campo{
+	margin-top: 10px;
+	border-top: 2px solid #091F40;
+	margin-right: 15px;
+}
+
+.button{
+	background-color: #091F40; 
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.buttonc{
+    float: left;
+    color: #FFF;
+    text-align: center;
+	padding: 32px 32px;
+	margin-left: 10px;
+}
+
+.formulario {
+	display: flex;
+	flex-direction: column;
+	background-color: #091F40;
+	border-radius: 10px;
+	width: 100%;
+	max-width: 45rem;
+	
+	padding:1.75rem;
+	
+}
+#forms {
+	background-color: #FFF;
+	border: none;
+	width: 100%;
+	border-bottom: 1px solid;
+	padding: 1.37rem 0.5rem 0.5rem;
+	height: 3.2rem;
+}
+.botao {
+	border: none;
+	border-radius: 7px;
+	background-color: #aaa;
+	padding: 3%;
+	font-size: 100%;
+	margin-top: 2rem;
+	width: 100%;
+}
+
+footer {
+	margin-top: 100px;
+    position: relative;
+    background-color: #091F40;
+    color: #FFF;
+    width: 100%;
+    height: 90px;    
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 6px solid #aaa;
+    padding-top: 10px;
+}
